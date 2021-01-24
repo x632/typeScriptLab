@@ -43,7 +43,7 @@ const {id,title} = route.params;
          setObject(json);
       }  );  
   }, []);
-console.log('bilden är:' , object?.image)
+
     return (
       <View style = {{flex: 1}} >
         <View style = {{ paddingTop: 40, alignItems:'center' }}> 
